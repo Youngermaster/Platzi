@@ -50,7 +50,7 @@ namespace CoreEscuela.App
                             break;
                         case LlaveDiccionario.Curso:
                             var curtmp = val as Curso;
-                            if(curtmp != null)
+                            if (curtmp != null)
                             {
                                 int count = curtmp.Alumnos.Count;
                                 Console.WriteLine("Curso: " + val.Nombre + " Cantidad Alumnos: " + count);
@@ -207,7 +207,7 @@ namespace CoreEscuela.App
                                 Nombre = $"{asignatura.Nombre} Ev#{i + 1}",
                                 Nota = MathF.Round(
                                     5 * (float)rnd.NextDouble()
-                                    ,2),
+                                    , 2),
                                 Alumno = alumno
                             };
                             alumno.Evaluaciones.Add(ev);
