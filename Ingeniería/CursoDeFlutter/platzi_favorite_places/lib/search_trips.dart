@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SearchTrips extends StatelessWidget{
+class SearchTrips extends StatelessWidget {
   const SearchTrips({Key? key}) : super(key: key);
 
   @override
@@ -9,5 +9,4 @@ class SearchTrips extends StatelessWidget{
       color: Colors.greenAccent,
     );
   }
-
 }

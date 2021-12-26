@@ -9,5 +9,4 @@ class ProfileTrips extends StatelessWidget {
       color: Colors.indigo,
     );
   }
-
 }
