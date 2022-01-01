@@ -25,8 +25,8 @@ func isPalindromo(text string) {
 func main() {
 	slice := []string{"hola", "que", "hace"}
 
-	for i := range slice {
-		fmt.Println(i)
+	for i, value := range slice {
+		fmt.Println(i, value)
 	}
 	// ama
 	// amor a roma

@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	// Area cuadrado
+	// Área cuadrado
 	const baseCuadrado = 10
 	areaCuadrado := baseCuadrado * baseCuadrado
 	fmt.Println("Area cuadrado:", areaCuadrado)
