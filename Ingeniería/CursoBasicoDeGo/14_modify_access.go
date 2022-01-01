@@ -1,7 +1,7 @@
 package main
 
 import (
-	// pk "curso_golang_platzi/src/mypackage"
+	pk "CursoBasicoDeGo/custom_package/custom_package"
 	"fmt"
 )
 

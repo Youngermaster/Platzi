@@ -1,4 +1,4 @@
-package 14_custom_package
+package custom_package
 
 import "fmt"
 
