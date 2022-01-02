@@ -18,4 +18,8 @@ func main() {
 	// Encontrar valor
 	value, ok := m["Jose"]
 	fmt.Println(value, ok)
+	// Encontrar valor
+	value, ok = m["Ch1mbo"]
+	fmt.Println(value, ok)
+
 }

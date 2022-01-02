@@ -15,5 +15,9 @@ func (myPC pc) String() string {
 func main() {
 	myPC := pc{ram: 16, brand: "msi", disk: 100}
 
+	ch1mbo_loco := 12
+	dasidasoid
+
 	fmt.Println(myPC)
+	fmt.Println(ch1mbo_loco)
 }
