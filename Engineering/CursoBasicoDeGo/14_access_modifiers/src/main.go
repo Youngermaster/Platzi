@@ -1,8 +1,8 @@
 package main
 
 import (
-	pk "CursoBasicoDeGo/custom_package/custom_package"
 	"fmt"
+	pk "customPackage/src/custom_package"
 )
 
 func main() {
@@ -13,5 +13,6 @@ func main() {
 
 	pk.PrintMessage("Hola Platzi")
 
-	pk.printMessage1("Hola")
+	// The following line won't work due to the function is not public.
+	// pk.printMessage1("Hola")
 }
