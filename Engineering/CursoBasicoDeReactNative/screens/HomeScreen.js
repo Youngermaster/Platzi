@@ -1,4 +1,4 @@
-import { View, StyleSheet, Text, Button } from 'react-native'
+import { StyleSheet, SafeAreaView, Button } from 'react-native'
 import React from 'react'
 import Greet from '../components/Greet';
 import LoginForm from '../components/Login';
@@ -12,7 +12,7 @@ export default function HomeScreen(props) {
   }
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Greet firstname="Juan" lastname='Young' />
       <Greet firstname="Manuel" lastname='Hoyos' />
       <Greet lastname="Goku" />
@@ -23,7 +23,7 @@ export default function HomeScreen(props) {
         onPress={goToSettings}
         title='Go to settings'
       />
-    </View>
+    </SafeAreaView>
   )
 }
 
